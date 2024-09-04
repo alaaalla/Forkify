@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+img {
+    height: 350px;
+}
+
+.container {
+    margin: 20px auto;
+    width: 1200px;
+}
+
+.container .color {
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.color li {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.container .color li:first-child {
+    background-color: rgb(222, 74, 121);
+}
+
+.container .color li:nth-child(2) {
+    background-color: rgb(69, 184, 75);
+}
+
+.container .color li:nth-child(3) {
+    background-color: rgb(235, 53, 235);
+}
+
+.container .color li:nth-child(4) {
+    background-color: rgb(82, 138, 187);
+}
+
+.pink .container h1 span {
+    color: rgb(225, 69, 118);
+}
+
+.pink .container .details {
+    color: rgb(225, 69, 118);
+}
+
+.green .container h1 span {
+    color: rgb(69, 184, 75);
+}
+
+.green .container .details {
+    color: rgb(69, 184, 75);
+}
+
+.purple .container h1 span {
+    color: rgb(235, 53, 235);
+}
+
+.purple .container .details {
+    color: rgb(235, 53, 235);
+}
+
+.blue .container h1 span {
+    color: rgb(82, 138, 187);
+}
+
+.blue .container .details {
+    color: rgb(82, 138, 187);
+}

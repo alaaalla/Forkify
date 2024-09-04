@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forkify</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="container py-5">
+        <!-- S T A R T      S T Y L I N G     C O L O R S -->
+        <ul class="color">
+            <li data-color="pink"></li>
+            <li data-color="green"></li>
+            <li data-color="purple"></li>
+            <li data-color="blue"></li>
+        </ul>
+        <!-- E N D      S T Y L I N G     C O L O R S -->
+        <input type="text" class="form-control my-2" id="search" placeholder="Search">
+        <select name="" class="form-control my-2" id="">
+            <option value="pizza">pizza</option>
+            <option value="carrot">carrot</option>
+            <option value="broccoli">boroccoli</option>
+            <option value="asparagus">asparagus</option>
+            <option value="cauliflower">cauliflower</option>
+            <option value="corn">corn</option>
+            <option value="cucumber">cucumber</option>
+            <option value="green pepper">green pepper</option>
+            <option value="lettuce">lettuce</option>
+            <option value="mushrooms">mushrooms</option>
+            <option value="onion">onion</option>
+            <option value="potato">potato</option>
+            <option value="pumpkin">pumpkin</option>
+            <option value="red pepper">red pepper</option>
+            <option value="tomato">tomato</option>
+            <option value="beetroot">beetroot</option>
+            <option value="brussel sprouts">brussel sprouts</option>
+            <option value="peas">peas</option>
+            <option value="zucchini">zucchini</option>
+            <option value="radish">radish</option>
+            <option value="sweet potato">sweet potato</option>
+            <option value="artichoke">artichoke</option>
+            <option value="leek">leek</option>
+            <option value="cabbage">cabbage</option>
+            <option value="celery">celery</option>
+            <option value="chili">chili</option>
+            <option value="garlic">garlic</option>
+            <option value="basil">basil</option>
+            <option value="coriander">coriander</option>
+            <option value="parsley">parsley</option>
+            <option value="dill">dill</option>
+            <option value="rosemary">rosemary</option>
+            <option value="oregano">oregano</option>
+            <option value="cinnamon">cinnamon</option>
+            <option value="saffron">saffron</option>
+            <option value="green bean">green bean</option>
+            <option value="bean">bean</option>
+            <option value="chickpea">chickpea</option>
+            <option value="lentil">lentil</option>
+            <option value="apple">apple</option>
+            <option value="apricot">apricot</option>
+            <option value="avocado">avocado</option>
+            <option value="banana">banana</option>
+            <option value="blackberry">blackberry</option>
+            <option value="blackcurrant">blackcurrant</option>
+            <option value="blueberry">blueberry</option>
+            <option value="boysenberry">boysenberry</option>
+            <option value="cherry">cherry</option>
+            <option value="coconut">coconut</option>
+            <option value="fig">fig</option>
+            <option value="grape">grape</option>
+            <option value="grapefruit">grapefruit</option>
+            <option value="kiwifruit">kiwifruit</option>
+            <option value="lemon">lemon</option>
+            <option value="lime">lime</option>
+            <option value="lychee">lychee</option>
+            <option value="mandarin">mandarin</option>
+            <option value="mango">mango</option>
+            <option value="melon">melon</option>
+            <option value="nectarine">nectarine</option>
+            <option value="orange">orange</option>
+            <option value="papaya">papaya</option>
+            <option value="passion fruit">passion fruit</option>
+            <option value="peach">peach</option>
+            <option value="pear">pear</option>
+            <option value="pineapple">pineapple</option>
+            <option value="plum">plum</option>
+            <option value="pomegranate">pomegranate</option>
+            <option value="quince">quince</option>
+            <option value="raspberry">raspberry</option>
+            <option value="strawberry">strawberry</option>
+            <option value="watermelon">watermelon</option>
+            <option value="salad">salad</option>
+            <option value="pizza">pizza</option>
+            <option value="pasta">pasta</option>
+            <option value="popcorn">popcorn</option>
+            <option value="lobster">lobster</option>
+            <option value="steak">steak</option>
+            <option value="bbq">bbq</option>
+            <option value="pudding">pudding</option>
+            <option value="hamburger">hamburger</option>
+            <option value="pie">pie</option>
+            <option value="cake">cake</option>
+            <option value="sausage">sausage</option>
+            <option value="tacos">tacos</option>
+            <option value="kebab">kebab</option>
+            <option value="poutine">poutine</option>
+            <option value="seafood">seafood</option>
+            <option value="chips">chips</option>
+            <option value="fries">fries</option>
+            <option value="masala">masala</option>
+            <option value="paella">paella</option>
+            <option value="som tam">som tam</option>
+            <option value="chicken">chicken</option>
+            <option value="toast">toast</option>
+            <option value="marzipan">marzipan</option>
+            <option value="tofu">tofu</option>
+            <option value="ketchup">ketchup</option>
+            <option value="hummus">hummus</option>
+            <option value="chili">chili</option>
+            <option value="maple syrup">maple syrup</option>
+            <option value="parma ham">parma ham</option>
+            <option value="fajitas">fajitas</option>
+            <option value="champ">champ</option>
+            <option value="lasagna">lasagna</option>
+            <option value="poke">poke</option>
+            <option value="chocolate">chocolate</option>
+            <option value="croissant">croissant</option>
+            <option value="arepas">arepas</option>
+            <option value="bunny chow">bunny chow</option>
+            <option value="pierogi">pierogi</option>
+            <option value="donuts">donuts</option>
+            <option value="rendang">rendang</option>
+            <option value="sushi">sushi</option>
+            <option value="ice cream">ice cream</option>
+            <option value="duck">duck</option>
+            <option value="curry">curry</option>
+            <option value="beef">beef</option>
+            <option value="goat">goat</option>
+            <option value="lamb">lamb</option>
+            <option value="turkey">turkey</option>
+            <option value="pork">pork</option>
+            <option value="fish">fish</option>
+            <option value="crab">crab</option>
+            <option value="bacon">bacon</option>
+            <option value="ham">ham</option>
+            <option value="pepperoni">pepperoni</option>
+            <option value="salami">salami</option>
+            <option value="ribs">ribs</option>
+        </select>
+        <h1><b>My <span>Recipes</span></b></h1>
+        <div class="row mt-3">
+
+        </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/API.js"></script>
+</body>
+
+</html>
